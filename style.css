@@ -1,0 +1,28 @@
+body {
+    background-image: url(assets/imgs/bg.png);
+    background-size: cover;
+    margin: 0;
+}
+
+.main_frm {
+    width: 900px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #4d4d4d;
+}
+
+.download_btn {
+    width: 115px;
+    height: 35px;
+    outline: 0px solid transparent;
+    border-color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.download_btn:hover {
+    background-color: black;
+    color: white;
+}
